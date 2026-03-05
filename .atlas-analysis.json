@@ -1,0 +1,173 @@
+{
+  "projectType": "saas",
+  "projectName": "Langfuse",
+  "projectDescription": "Open source LLM engineering platform for observability, metrics, evals, prompt management, and debugging AI applications.",
+  "theme": "palm",
+  "primaryColor": "#e24948",
+  "lightColor": "#1f3c65",
+  "darkColor": "#a9adac",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction",
+              "why-langfuse",
+              "demo"
+            ]
+          },
+          {
+            "group": "Get Started",
+            "pages": [
+              "get-started/quickstart",
+              "get-started/installation",
+              "get-started/create-project",
+              "get-started/first-trace"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/tracing",
+              "features/prompt-management",
+              "features/evaluations",
+              "features/datasets",
+              "features/playground",
+              "features/analytics"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/sdk",
+              "integrations/openai",
+              "integrations/langchain",
+              "integrations/llamaindex",
+              "integrations/litellm",
+              "integrations/vercel-ai-sdk",
+              "integrations/other"
+            ]
+          },
+          {
+            "group": "Self-Hosting",
+            "pages": [
+              "self-hosting/overview",
+              "self-hosting/local",
+              "self-hosting/docker",
+              "self-hosting/kubernetes",
+              "self-hosting/configuration",
+              "self-hosting/scaling"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "api/overview",
+              "api/authentication"
+            ]
+          },
+          {
+            "group": "Tracing",
+            "pages": [
+              "api/traces",
+              "api/observations",
+              "api/generations",
+              "api/spans",
+              "api/events"
+            ]
+          },
+          {
+            "group": "Prompts",
+            "pages": [
+              "api/prompts"
+            ]
+          },
+          {
+            "group": "Datasets",
+            "pages": [
+              "api/datasets",
+              "api/dataset-items",
+              "api/dataset-runs"
+            ]
+          },
+          {
+            "group": "Scores",
+            "pages": [
+              "api/scores"
+            ]
+          },
+          {
+            "group": "Projects",
+            "pages": [
+              "api/projects"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Tutorials",
+            "pages": [
+              "guides/tracing-tutorial",
+              "guides/prompt-versioning",
+              "guides/evaluation-workflow",
+              "guides/dataset-management"
+            ]
+          },
+          {
+            "group": "Best Practices",
+            "pages": [
+              "guides/production-deployment",
+              "guides/cost-optimization",
+              "guides/security",
+              "guides/monitoring"
+            ]
+          },
+          {
+            "group": "Migration",
+            "pages": [
+              "guides/migration-guide",
+              "guides/upgrading"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "LLM Application Observability & Tracing",
+    "Prompt Management & Versioning",
+    "LLM Evaluations & Metrics",
+    "Datasets & Benchmarking",
+    "LLM Playground",
+    "Analytics & Dashboards",
+    "Self-hostable & Open Source",
+    "Comprehensive API & SDKs"
+  ],
+  "publicApiSurface": [
+    "POST /api/public/ingestion - Ingest traces, observations, and events",
+    "GET /api/public/traces - List and retrieve traces",
+    "GET /api/public/observations - List and retrieve observations",
+    "GET /api/public/generations - List and retrieve generations",
+    "POST /api/public/scores - Create and manage scores",
+    "GET /api/public/prompts - Manage prompts and versions",
+    "GET /api/public/datasets - Manage datasets and items",
+    "POST /api/public/dataset-runs - Create and track dataset runs",
+    "@observe() decorator - Python tracing decorator",
+    "Langfuse SDK (Python, JS/TS) - Manual instrumentation",
+    "OpenAI SDK integration - Drop-in replacement",
+    "Langchain callbacks - Automated tracing",
+    "LlamaIndex callbacks - Automated tracing"
+  ]
+}
